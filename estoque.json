@@ -1,109 +1,181 @@
 {
-    "clientes":[
-        {
-            "id":1,
-            "nome":"Gallo Boy",
-            "email":"galo@galo",
-            "senha":"123456"        
-        },
-        {
-            "id":2,
-            "nome":"val",
-            "email":"Indiano@val",
-            "senha":"654321"        
-        },
-        {
-            "id":3,
-            "nome":"Carneiro",
-            "email":"carneiro@carneiro",
-            "senha":"123456789"        
-        }
-
-    ],
-    "pedidos":[
-        {
-            "id": 1,
-            "id_cliente": 1,
-            "data_pedido": "2023-03-31",
-            "total":124.24
-        },
-        {
-            "id": 2,
-            "id_cliente": 3,
-            "data_pedido": "2023-03-15",
-            "total":324.24
-        }
-
-    ],
-    "itens_pedidos":[
-        {
-            "fk_pedido":1,
-            "fk_produto": 1,
-            "preco_unitario": 20.00,
-            "quantidade": 2,
-            "preco_total": 40.00
-        },
-
-        {
-            "fk_pedido":1,
-            "fk_produto": 2,
-            "preco_unitario": 15.00,
-            "quantidade": 2,
-            "preco_total": 30.00
-        },
-
-        {
-            "fk_pedido":2,
-            "fk_produto": 1,
-            "preco_unitario": 20.00,
-            "quantidade": 1,
-            "preco_total": 20.00
-        },
-
-        {
-            "fk_pedido":2,
-            "fk_produto": 2,
-            "preco_unitario": 10.00,
-            "quantidade": 1,
-            "preco_total": 10.00
-        },
-        {
-            "fk_pedido":1,
-            "fk_produto": 1,
-            "preco_unitario": 20.00,
-            "quantidade": 2,
-            "preco_total": 40.00
-        },
-        {
-            "fk_pedido":2,
-            "fk_produto": 3,
-            "preco_unitario": 5.00,
-            "quantidade": 2,
-            "preco_total": 10.00
-        }
-    ],
-    "produtos":[
-        {
-            "id": 1,
-            "titulo": "Sexshop",
-            "decricao": "prazer",
-            "preco": 100.00,
-            "nome_imagem": "Sexshop.png"
-        },
-        {
-            "id": 1,
-            "titulo": "brama",
-            "decricao": "alcooooll",
-            "preco": 1.00,
-            "nome_imagem": "alcooooll.png"
-        },
-        {
-            "id": 1,
-            "titulo": "picanha",
-            "decricao": "carne",
-            "preco": 100.00,
-            "nome_imagem": "picanha.png"
-        }
-    ]
-
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "Gallo Boy",
+      "email": "galo@galo",
+      "senha": "123456"
+    },
+    {
+      "id": 2,
+      "nome": "val",
+      "email": "Indiano@val",
+      "senha": "654321"
+    },
+    {
+      "id": 3,
+      "nome": "Carneiro",
+      "email": "carneiro@carneiro",
+      "senha": "123456789"
+    },
+    {
+      "nome": "",
+      "email": "",
+      "senha": "",
+      "id": 4
+    },
+    {
+      "nome": "",
+      "email": "",
+      "senha": "",
+      "id": 5
+    },
+    {
+      "nome": "",
+      "email": "",
+      "senha": "",
+      "id": 6
+    },
+    {
+      "nome": "",
+      "email": "",
+      "senha": "",
+      "id": 7
+    },
+    {
+      "nome": "",
+      "email": "",
+      "senha": "",
+      "id": 8
+    },
+    {
+      "nome": "",
+      "email": "",
+      "senha": "",
+      "id": 9
+    },
+    {
+      "nome": "",
+      "email": "",
+      "senha": "",
+      "id": 10
+    },
+    {
+      "nome": "",
+      "email": "",
+      "senha": "",
+      "id": 11
+    },
+    {
+      "nome": "",
+      "email": "",
+      "senha": "",
+      "id": 12
+    },
+    {
+      "nome": "",
+      "email": "",
+      "senha": "",
+      "id": 13
+    },
+    {
+      "nome": "",
+      "email": "",
+      "senha": "",
+      "id": 14
+    },
+    {
+      "nome": "",
+      "email": "",
+      "senha": "",
+      "id": 15
+    },
+    {
+      "nome": "",
+      "email": "",
+      "senha": "",
+      "id": 16
+    }
+  ],
+  "pedidos": [
+    {
+      "id": 1,
+      "id_cliente": 1,
+      "data_pedido": "2023-03-31",
+      "total": 124.24
+    },
+    {
+      "id": 2,
+      "id_cliente": 3,
+      "data_pedido": "2023-03-15",
+      "total": 324.24
+    }
+  ],
+  "itens_pedidos": [
+    {
+      "fk_pedido": 1,
+      "fk_produto": 1,
+      "preco_unitario": 20,
+      "quantidade": 2,
+      "preco_total": 40
+    },
+    {
+      "fk_pedido": 1,
+      "fk_produto": 2,
+      "preco_unitario": 15,
+      "quantidade": 2,
+      "preco_total": 30
+    },
+    {
+      "fk_pedido": 2,
+      "fk_produto": 1,
+      "preco_unitario": 20,
+      "quantidade": 1,
+      "preco_total": 20
+    },
+    {
+      "fk_pedido": 2,
+      "fk_produto": 2,
+      "preco_unitario": 10,
+      "quantidade": 1,
+      "preco_total": 10
+    },
+    {
+      "fk_pedido": 1,
+      "fk_produto": 1,
+      "preco_unitario": 20,
+      "quantidade": 2,
+      "preco_total": 40
+    },
+    {
+      "fk_pedido": 2,
+      "fk_produto": 3,
+      "preco_unitario": 5,
+      "quantidade": 2,
+      "preco_total": 10
+    }
+  ],
+  "produtos": [
+    {
+      "id": 1,
+      "titulo": "Sexshop",
+      "decricao": "prazer",
+      "preco": 100,
+      "nome_imagem": "Sexshop.png"
+    },
+    {
+      "id": 1,
+      "titulo": "brama",
+      "decricao": "alcooooll",
+      "preco": 1,
+      "nome_imagem": "alcooooll.png"
+    },
+    {
+      "id": 1,
+      "titulo": "picanha",
+      "decricao": "carne",
+      "preco": 100,
+      "nome_imagem": "picanha.png"
+    }
+  ]
 }
