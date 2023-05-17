@@ -222,6 +222,18 @@
       "decricao": "",
       "preco": "",
       "nome_imagem": ""
+    },
+    {
+      "titulo": "Suco de Laranja",
+      "descricao": "Suco natural",
+      "preco": 5,
+      "id": 7
+    },
+    {
+      "titulo": "suco de morango ",
+      "descricao": "suco natural",
+      "preco": 5,
+      "id": 8
     }
   ]
 }
